@@ -1,20 +1,11 @@
 import os
 import torch
-from pyannote.audio.models.models import Embedding
 from pyannote.audio.models import SincTDNN
-from pyannote.audio.models.scaling import Scaling
 from pyannote.audio.train.task import Task, TaskOutput, TaskType
-from pyannote.core import Timeline
 from pyannote.core import Annotation
-from typing import TextIO
-from typing import Union
-from pyannote.core import Segment, Timeline, Annotation
-from pyannote.metrics.diarization import DiarizationErrorRate
+from pyannote.core import Segment, Annotation
 from pyannote.audio.utils.signal import Binarize
-from matplotlib import pyplot as plt
-from pyannote.core import notebook
 from speaker_diarization_overlap import SpeakerDiarizationOverlap
-import numpy as np
 from g_net import GNet
 import sys
 
