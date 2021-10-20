@@ -60,6 +60,9 @@ class SpeakerDiarizationOverlap(SpeakerDiarization):
     def _embeddings(self, current_file: dict):
         embeddings = self.speech_turn_clustering._embedding(current_file)
         return embeddings
+
+    def _get_vad_segments(self, current_file: dict):
+        return self.speech_turn_segmentation(current_file)
     
     def __call__(self, current_file: dict) -> Annotation:
         """Apply speaker diarization
