@@ -18,7 +18,7 @@ will generate rttm formated diarization results for all experiments.
 ## Diarization for a single wav file (for ISAT)
 Use command  
 `python isat_diarization.py [WAV_PATH] [OUTPUT_DIR]`  
-to generate both rttm formated VAD and diarization results.
+to generate both rttm formated VAD and diarization results for a 16k Hz wav file.
 
 # Training
 
