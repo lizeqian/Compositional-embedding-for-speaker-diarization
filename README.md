@@ -2,7 +2,7 @@ Repository for paper *Compositional embedding models for speaker identification 
 https://arxiv.org/abs/2010.11803
 
 ## Requirement
-Install pytorch using instructions from https://pytorch.org.
+Install pytorch using instructions from https://pytorch.org.  
 Install pyannote-audio using instructions from https://github.com/pyannote/pyannote-audio.
 
 # Evaluation
