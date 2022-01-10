@@ -20,6 +20,8 @@ Use command
 `python isat_diarization.py [WAV_PATH] [OUTPUT_DIR]`  
 to generate both rttm formated VAD and diarization results for a 16k Hz wav file.
 
+In config.yml, smaller speech_turn_assignment.threshold results in more singletons not assigned to any speaker, larger speech_turn_clustering.preference (closer to 0) results in more clusters (speakers).
+
 # Training
 
 ## Prepare trainin data
