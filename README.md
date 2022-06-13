@@ -44,6 +44,6 @@ Each is a dictionary where the keys are the speaker ids and the values are lists
 ```
 python train_fg.py
 ```
-The code will load a pretrained speaker embedding model that is trained on VoxCeleb before the training of compositional embedding.
+A pretrained speaker embedding model that is trained on VoxCeleb will be loaded before the training of compositional embedding.
 
 There is an updated training strategy in `train_fg_arcface_triplet.py` which uses arcface loss and triplet loss in an interleaving way.
